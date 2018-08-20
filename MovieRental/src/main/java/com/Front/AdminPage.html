@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Area</title>
+    <link rel="stylesheet" href='Master.css' type="text/css">
+	<link href="Menu.css" rel="stylesheet" type="text/css"/>
+    <meta charset = "UTF-8">
+	<style>
+	table {
+    border-collapse: collapse;
+}
+		table, th, td {
+		border: 1px solid black;
+		}
+		table{width:800px;}
+		th{height:20px;}
+		table{align:center;}
+	</style>
+</head>
+<body>
+<table width="100%" border="0">
+    <tr>
+        <td colspan="2" bgcolor="#7BC66B">
+            <h1><div style="text-align: center;">Mr Movie</div></h1>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" bgcolor="#299C39">
+
+            <div style="text-align: center;"> Mr Movie, Administration Menu</div>
+        </td>
+    </tr>
+    <tr valign="top">
+        <td bgcolor="#CEEFBD" width="50" >
+
+
+                <form name = "AdminForm" method ="POST" action="ProcessAdmin.php">
+                 
+                    <div style="text-align: center;">
+         					
+						<p><a href= "AdminControls.html"><button type = "button"  required>Administrator Controls</button></a></p>
+						<p><a href= "CustomerControls.html"><button type = "button"  required>Customer Controls</button></a></p>
+						<p><a href= "MovieControls.html"><button type = "button"  required>Movie Controls</button></a></p>
+						<p><a href= "ReportControls.html"><button type = "button"  required>Reports</button></a></p>
+
+					</div>
+                </form>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Movie</title>
+    <link rel="stylesheet" href='Master.css' type="text/css">
+	<link href="Menu.css" rel="stylesheet" type="text/css"/>
+    <meta charset = "UTF-8">
+	<style>
+		table {
+    border-collapse: collapse;
+}
+		table, th, td {
+		border: 1px solid black;
+		}
+		table{width:800px;}
+		th{height:20px;}
+		table{align:center;}
+	</style>
+</head>
+<body>
+<table width="100%" border="0">
+    <tr>
+        <td colspan="2" bgcolor="#7BC66B">
+            <h1><div style="text-align: center;">Mr Movie</div></h1>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" bgcolor="#299C39">
+            <div style="text-align: center;">
+                <form name = "loginForm" method ="POST" action="processRegistration.php">
+                    <h2>Movie Info</h2>
+                    <p>Id				</br><input type="text" name="id" required> </p>
+                    <p>Name        			</br><input type="text" name="name"  required> </p>
+                    <p>Genre    	      			</br><input type="text" name="genre"  required> </p>
+                    <p>Category          </br><input type="text" name="category"  required>
+                     </p>
+					
+                    <p><input type = "submit" name="submit" value="Submit"> </p>
+                </form>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" bgcolor="#b5dcb3">
+            <div style="text-align: right;">
+                Herbert Jacobs 2018
+            </div>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
